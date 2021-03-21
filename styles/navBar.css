@@ -1,0 +1,28 @@
+nav {
+  position: fixed;
+  top: 15px;
+  right: 0;
+  width: 60vw;
+  height: 8vh;
+}
+
+nav >ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+}
+
+nav >ul >li {
+  cursor: pointer
+}
+
+nav >hr {
+  border: none;
+  border-top: 2.5px solid black;
+}
+
+#selected-item {
+  font-weight: bold;
+}
+

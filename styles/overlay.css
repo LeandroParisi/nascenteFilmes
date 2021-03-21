@@ -1,0 +1,9 @@
+#overlay-active {
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: 1.5s;
+}

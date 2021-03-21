@@ -1,0 +1,70 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h1 {
+	font-size: calc(1em + 1vw)
+}
+
+h2 {
+	font-size: calc(1em + 1vw)
+}
+
+h3 {
+	font-size: calc(1em + 1vw)
+}
+
+h4 {
+	font-size: calc(1em + 1vw)
+}
+
+h5 {
+	font-size: calc(1em + 1vw)
+}
+
+p, li {
+	font-size: calc(0.5em + 0.8vw)
+}
+
+ol, ul {
+	list-style: none;
+}
+
+.js-stop-transition {
+	transition: none !important;
+}
+
+.circle {
+	border-radius: 100%
+}
+
+.orange-circle {
+	background-color: rgb(252, 194, 76);
+}
+
+.yellow-circle {
+	background-color: rgb(254, 252, 73);
+}
+
+.circle-hoverable {
+  cursor: pointer;
+
+}
+

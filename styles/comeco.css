@@ -1,0 +1,55 @@
+.site-title {
+  padding-left: 50px;
+  width: 40vw;
+  max-height: 100vh;
+  font-size: 200px;
+  word-break: break-all;
+}
+
+#comeco >.circles-container {
+  position: absolute;
+  top: 12vh;
+  right: 10vw;
+}
+
+#comeco .circles-container {
+  height: 300px;
+  width: 300px;
+  direction: rtl;
+}
+
+#comeco .circles-container >.yellow-circle {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  transition: 1s;
+}
+
+#comeco .circles-container >.yellow-circle:hover {
+  height: 200%;
+  width: 200%;
+  z-index: 2;
+  background-image: url('../assets/images/sambista.jpg');
+  background-position-x: -200px;
+  background-size: cover;
+  background-color: rgba(254, 252, 73, 0.5);
+  transition-property: background-image;
+  transition: 1s;
+}
+
+#comeco .circles-container >.orange-circle {
+
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  height: 50%;
+  width: 50%;
+  transition: 1s;
+}
+
+#comeco .circles-container >.orange-circle:hover {
+  height: 150%;
+  width: 150%;
+  transition: 1s;
+  z-index: 2;
+}
