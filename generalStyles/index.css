@@ -1,8 +1,10 @@
 .site-title {
-  padding-left: 50px;
-  width: 40vw;
-  max-height: 100vh;
-  font-size: 200px;
+	position: absolute;
+  top: 2vh;
+  left: 2vw;
+  font-size: calc(36vw / 2);
+  max-width: 38vw;
+  line-height: calc(100vw / 6);
   word-break: break-all;
 }
 
@@ -10,9 +12,6 @@
   position: absolute;
   top: 12vh;
   right: 10vw;
-}
-
-#comeco .circles-container {
   height: 300px;
   width: 300px;
   direction: rtl;
@@ -22,34 +21,36 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  transition: 1s;
-}
-
-#comeco .circles-container >.yellow-circle:hover {
-  height: 200%;
-  width: 200%;
-  z-index: 2;
-  background-image: url('../assets/images/sambista.jpg');
-  background-position-x: -200px;
-  background-size: cover;
-  background-color: rgba(254, 252, 73, 0.5);
-  transition-property: background-image;
-  transition: 1s;
+  transition: 2s;
+  animation-name: fadeIn;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
 }
 
 #comeco .circles-container >.orange-circle {
-
   position: absolute;
-  top: 50px;
-  right: 50px;
-  height: 50%;
-  width: 50%;
+  top: 20px;
+  right: 20px;
+  height: 70%;
+  width: 70%;
   transition: 1s;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
-#comeco .circles-container >.orange-circle:hover {
-  height: 150%;
-  width: 150%;
-  transition: 1s;
-  z-index: 2;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+
