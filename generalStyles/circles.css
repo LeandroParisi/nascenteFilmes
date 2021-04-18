@@ -1,0 +1,15 @@
+.circle {
+	border-radius: 100%
+}
+
+.orange-circle {
+	background-color: rgb(252, 194, 76);
+}
+
+.yellow-circle {
+	background-color: rgb(254, 252, 73);
+}
+
+.circle-hoverable {
+  cursor: pointer;
+}

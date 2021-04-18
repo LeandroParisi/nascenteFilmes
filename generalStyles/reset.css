@@ -43,6 +43,11 @@ p, li {
 	font-size: calc(0.5em + 0.8vw)
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -51,20 +56,20 @@ ol, ul {
 	transition: none !important;
 }
 
-.circle {
-	border-radius: 100%
+.unactive-page {
+  display: none;
 }
 
-.orange-circle {
-	background-color: rgb(252, 194, 76);
+.page {
+  width: 100vw;
+  height: 100vh;
 }
 
-.yellow-circle {
-	background-color: rgb(254, 252, 73);
+.primary-page {
+  background-color: rgb(236, 59, 30);
 }
 
-.circle-hoverable {
-  cursor: pointer;
-
+.secondary-page {
+	background-color: rgb(255, 255, 255)
 }
 

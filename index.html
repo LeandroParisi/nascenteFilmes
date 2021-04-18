@@ -5,23 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="./styles/reset.css">
-  <link rel="stylesheet" href="./styles/navBar.css">
-  <link rel="stylesheet" href="./styles/comeco.css">
-  <link rel="stylesheet" href="./styles/pages.css">
-  <link rel="stylesheet" href="./styles/overlay.css">
-  <link rel="stylesheet" href="./styles/nos.css">
+  <link rel="stylesheet" href="./generalStyles/reset.css">
+  <link rel="stylesheet" href="./generalStyles/navBar.css">
+  <link rel="stylesheet" href="./generalStyles/circles.css">
+  <link rel="stylesheet" href="./generalStyles/index.css">
+  <link rel="stylesheet" href="./generalStyles/pages.css">
+  <link rel="stylesheet" href="./generalStyles/overlay.css">
   <title>Nascente Filmes</title>
 </head>
 <body class="js-stop-transition">
   <header>
     <nav>
       <ul class="menu">
-        <li class="menu-item comeco" id="selected-item">começo</li>
-        <li class="menu-item nos">nós</li>
-        <li class="menu-item atuacoes">atuações</li>
-        <li class="menu-item encontros">encontros</li>
-        <li class="menu-item contato">contato</li>
+        <li class="menu-item comeco" id="selected-item"><a href="index.html">começo</a></li>
+        <li class="menu-item nos"><a href="pages/2_nos/nos.html">nós</a></li>
+        <li class="menu-item atuacoes"><a href="pages/3_atuacoes/atuacoes.html">atuações</a></li>
+        <li class="menu-item encontros"><a href="pages/4_encontros/encontros.html">encontros</a></li>
+        <li class="menu-item contato"><a href="pages/5_contato/contato.html">contato</a></li>
       </ul>
       <hr />
     </nav>
@@ -37,35 +37,11 @@
     </div>
   </main>
 
-  <main class='page secondary-page unactive-page' id='nos'>
-    <div class='photo-creators'>
-      <figure>
-        <img class='creators-image' src="./assets/images/negra.jpg" alt="" width="250px">
-        <figcaption>
-          <p>paloma lopes + moreno bastos,</p>
-          <br />
-          <p>criadores da nascente</p>
-        </figcaption>
-      </figure>
-    </div>
-    <section class='about-container'>
-      <div class='about-initial'>
-        <h2 class='about-title'>nós</h2>
-      </div>
-      <div class='about-text-container'>
-        <div class="circle yellow-circle"></div>
-        <!-- <p class='about-text'></p> -->
-      </div>
-    </section>
-  </main>
-
   <div class='overlay'>
 
   </div>
 
-  <script src="./javaScript/navBarSelection.js"></script>
   <script src="./javaScript/circles.js"></script>
-  <script src="./javaScript/nos.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
   <script>document.body.classList.remove('js-stop-transition')</script> 
