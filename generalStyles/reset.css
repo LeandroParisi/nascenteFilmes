@@ -10,12 +10,12 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video, body {
+time, mark, audio, video, body, aside, nav, li, a {
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: universlight;
 	vertical-align: baseline;
 }
 
@@ -77,3 +77,42 @@ ol, ul {
 	background-color: rgb(255, 255, 255)
 }
 
+@font-face {
+	font-family: 'universbold';
+	src: url('../assets/2_fonts/universbold-webfont.woff2') format('woff2'),
+			 url('../assets/2_fonts/universbold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'universbold_condensed';
+	src: url('../assets/2_fonts/universcnbold-webfont.woff2') format('woff2'),
+			 url('../assets/2_fonts/universcnbold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'universcondensed';
+	src: url('../assets/2_fonts/universcnrg-webfont.woff2') format('woff2'),
+			 url('../assets/2_fonts/universcnrg-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'universlight';
+	src: url('../assets/2_fonts/universlight-webfont.woff2') format('woff2'),
+			 url('../assets/2_fonts/universlight-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'universregular';
+	src: url('../assets/2_fonts/universregular-webfont.woff2') format('woff2'),
+			 url('../assets/2_fonts/universregular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
