@@ -56,17 +56,13 @@ ol, ul {
 	list-style: none;
 }
 
-.js-stop-transition {
-	transition: none !important;
-}
-
-.unactive-page {
-  display: none;
-}
-
 .page {
   width: 100vw;
   height: 100vh;
+}
+
+.overlay {
+	position: relative;
 }
 
 .primary-page {

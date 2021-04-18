@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./assets/2_fonts/webkit/stylesheet.css">
   <link rel="stylesheet" href="./generalStyles/reset.css">
   <link rel="stylesheet" href="./generalStyles/navBar.css">
@@ -33,19 +33,24 @@
       NASCENTE
     </aside>
     <div class="circles-container">
-      <div class="circle circle-hoverable yellow-circle"></div>
+      <div class="circle circle-hoverable yellow-circle">
+        <i class="fa fa-play play-button"></i>
+      </div>
       <div class="circle circle-hoverable orange-circle"></div>
     </div>
   </main>
 
+  
   <div class='overlay'>
-
+    <div id='video-popup'>
+      <i class="fa fa-times close-button"></i>
+      <video class='video-container' controls>
+        <source id='reel-video' src="./assets/1_audioVisual/REEL NASCENTE.mp4" type="video/mp4"></souce>
+      </video>
+    </div>
   </div>
 
   <script src="./javaScript/circles.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
-  <script>document.body.classList.remove('js-stop-transition')</script> 
-
+  <script src="./javaScript/homeCircles.js"></script>
 </body>
 </html>

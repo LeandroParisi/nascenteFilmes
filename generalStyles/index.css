@@ -27,6 +27,28 @@
   animation-duration: 3s;
   animation-delay: 1s;
   animation-fill-mode: both;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#comeco .circles-container >.yellow-circle:hover {
+  width: 180%;
+  height: 180%;
+}
+
+.yellow-circle > .play-button {
+  font-size: calc(20px + 2vw);
+  cursor: pointer;
+  transition: 1s;
+  opacity: 0;
+}
+
+.yellow-circle > .play-button.visible {
+  transition: 1s;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
 
 #comeco .circles-container >.orange-circle {
@@ -44,6 +66,22 @@
   justify-content: center;
   align-content: center;
   align-items: center;
+}
+
+#video-popup, .video-container {
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+}
+
+#video-popup > .close-button {
+  z-index: 1;
+  font-size: calc(15px + 1vw);
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  top: 15px;
+  left: 15px;
 }
 
 @keyframes fadeIn {
