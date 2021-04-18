@@ -2,11 +2,11 @@
 	position: absolute;
   top: 2vh;
   left: 2vw;
-  font-size: calc(36vw / 2);
+  font-size: calc(34vw / 2);
   max-width: 38vw;
   line-height: calc(100vw / 6);
   word-break: break-all;
-  font-weight: bolder;
+  font-family: universbold;
 }
 
 #comeco >.circles-container {
@@ -93,3 +93,10 @@
   }
 }
 
+@font-face {
+	font-family: 'universbold';
+	src: url('../assets/2_fonts/universbold-webfont.woff2') format('woff2'),
+			 url('../assets/2_fonts/universbold-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}

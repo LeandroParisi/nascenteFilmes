@@ -14,7 +14,7 @@ nav >ul {
 }
 
 nav >ul >li {
-  cursor: pointer
+  cursor: pointer;
 }
 
 nav >hr {
