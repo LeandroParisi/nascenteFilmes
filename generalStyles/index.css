@@ -68,14 +68,23 @@
   align-items: center;
 }
 
+#video-popup {
+  position: relative;
+  display: none
+}
+
+#video-popup.active {
+  display: inline-block
+}
+
 #video-popup, .video-container {
   width: 100vw;
   height: 100vh;
-  z-index: 2;
+  z-index: 1;
 }
 
 #video-popup > .close-button {
-  z-index: 1;
+  z-index: 2147483647;
   font-size: calc(15px + 1vw);
   position: absolute;
   color: white;
