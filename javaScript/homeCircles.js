@@ -33,7 +33,6 @@ playButton.addEventListener('click', () => {
 
 closeButton.addEventListener('click', async () => {
   overlay.removeAttribute('id');
-  console.log(videoPopup.requestFullscreen)
   videoPopup.classList.remove('active')
   if (videoPopup.fullscreenElement) {
     await videoPopup.exitFullscreen();
