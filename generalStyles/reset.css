@@ -61,9 +61,7 @@ ol, ul {
   height: 100vh;
 }
 
-.overlay {
-	position: relative;
-}
+
 
 .primary-page {
   background-color: rgb(236, 59, 30);

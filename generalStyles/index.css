@@ -83,16 +83,6 @@
   z-index: 1;
 }
 
-#video-popup > .close-button {
-  z-index: 2147483647;
-  font-size: calc(15px + 1vw);
-  position: absolute;
-  color: white;
-  cursor: pointer;
-  top: 15px;
-  left: 15px;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
