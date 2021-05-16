@@ -45,11 +45,11 @@
 }
 
 .about-container .yellow-circle {
-  width: 500px;
-  height: 500px;
+  width: calc(30vw + 100px);
+  height: calc(30vw + 100px);
   position: absolute;
-  right: -15%;
-  top: 15%;
+  right: 10%;
+  top: 5%;
 }
 
 .about-text-container {
