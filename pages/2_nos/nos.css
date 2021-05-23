@@ -28,49 +28,46 @@
 }
 
 .about-container {
-  align-self: flex-end;
-  margin-bottom: calc(8% + 250px + 8vh);
-
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* 
-.about-initial {
-  margin-top: 5vh;
   align-self: flex-start;
+  height: 70vh;
+  width: 55vw;
+  margin-left: 3%;
+  display: flex;
+  position: relative;
 }
 
-.about-initial >.about-title {
+.about-title {
   font-weight: bold;
   width: calc(1em + 5vw);
   height: calc(1em + 5vw);
-  border-radius: 100%;
   font-size: calc(1em + 2vw);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.about-text {
+  text-align: right;
+  margin-top: 22px;
+  z-index: 1;
+} 
+
+.about-text > p {
+  font-size: calc(12px + 0.5vw);
+}
+
+.about-text > p:not(:first-child) {
+  margin-top: 30px;
 }
 
 .about-container .yellow-circle {
-  width: calc(30vw + 100px);
-  height: calc(30vw + 100px);
+  width: calc(15vw + 250px);
+  height: calc(15vw + 250px);
   position: absolute;
-  right: 10%;
-  top: 5%;
+  top: -10%;
+  right: -10%;
 }
 
-.about-text-container {
+/* .about-text-container {
   margin-left: 25vh;
   text-align: end;
   width: 50vw;
   height: 50vh;
-}
-
-.about-text {
-  /* margin-right: 25vw; */
-  margin-left: -15vw;
-  margin-top: 10vh;
-  width: calc(40vw + 100px)
 } */
