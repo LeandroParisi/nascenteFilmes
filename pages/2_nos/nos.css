@@ -1,17 +1,25 @@
-.photo-creators {
+.nos-page {
+  display: flex;
+  flex-direction: row;
   position: absolute;
-  bottom: 10vh;
-  left: 5vw;
+  bottom: 0;
+  width: 100%;
+  height: 80%;
+}
+
+.photo-creators {
+  align-self: flex-end;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .creators-image {
-  width: calc(80px + 15vw);
+  width: calc(150px + 5vw);
 }
 
 .photo-creators figcaption {
-  margin-top: 1vh;
-  margin-left: 3vw;
-  width: 30vw;
+  margin-top: 10%;
+  width: 135%;
   text-align: end;
 }
 
@@ -20,25 +28,26 @@
 }
 
 .about-container {
-  position: absolute;
-  top: 15vh;
-  left: 30vw;
+  align-self: flex-end;
+  margin-bottom: calc(8% + 250px + 8vh);
+
+
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
+/* 
 .about-initial {
+  margin-top: 5vh;
   align-self: flex-start;
 }
 
 .about-initial >.about-title {
   font-weight: bold;
-  width: calc(1em + 5vw);;
-  height: calc(1em + 5vw);;
+  width: calc(1em + 5vw);
+  height: calc(1em + 5vw);
   border-radius: 100%;
   font-size: calc(1em + 2vw);
-  background-color: rgb(254, 252, 73);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,9 +62,15 @@
 }
 
 .about-text-container {
-  margin-top: 3vh;
-  margin-left: 15px;
+  margin-left: 25vh;
   text-align: end;
   width: 50vw;
   height: 50vh;
 }
+
+.about-text {
+  /* margin-right: 25vw; */
+  margin-left: -15vw;
+  margin-top: 10vh;
+  width: calc(40vw + 100px)
+} */
