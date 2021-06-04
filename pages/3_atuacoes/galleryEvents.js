@@ -44,7 +44,6 @@ const currentImage = document.querySelector('.gallery-image')
 arrowLeft.addEventListener('click', () => {
   if (currentPhoto - 1 >= minIndex) {
     currentPhoto -= 1
-    console.log('currentPhoto', currentPhoto)
     currentImage.setAttribute('src', imageGallery[currentPhoto].src)
   } if (currentPhoto === minIndex) {
     arrowLeft.classList.add('disabled')
