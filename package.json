@@ -3,7 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
+  "gh-pages-deploy": {
+    "staticpath": "dist",
+    "cname": "nope.org",
+    "prep": [
+      "build-sass",
+      "optimize-img"
+    ],
+    "commit": "a custom commit message",
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
+  },
+
   "scripts": {
+    "deploy": "gh-pages-deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
