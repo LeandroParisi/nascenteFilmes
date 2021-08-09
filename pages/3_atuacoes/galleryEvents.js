@@ -43,11 +43,13 @@ const currentImage = document.querySelector('.gallery-image')
 
 arrowLeft.addEventListener('click', () => {
   if (currentPhoto - 1 >= minIndex) {
+    arrowRight.classList.remove('disabled')
     currentPhoto -= 1
     currentImage.setAttribute('src', imageGallery[currentPhoto].src)
-  } if (currentPhoto === minIndex) {
+  } 
+  if (currentPhoto === minIndex) {
     arrowLeft.classList.add('disabled')
-  }
+  } 
 });
 
 arrowRight.addEventListener('click', () => {

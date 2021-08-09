@@ -1,6 +1,6 @@
 1. Encontros - Tela acima de 1500 px -> ajuste de tamanho; tirar fundo das logos (ancat, pragma)
 
-2. Subir o site pro ar
+2. Subir o site pro ar\\
 
 ___
 
