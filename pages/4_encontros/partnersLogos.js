@@ -40,12 +40,12 @@ const partnersLogos = [
     name: 'logo suindara'
   },
   {
-    src: '../../assets/3_partnersLogos/ancat.jpg',
+    src: '../../assets/3_partnersLogos/ancat.png',
     width: '120px',
     name: 'logo Ancat'
   },
   { // Copiar daqui...
-    src: '../../assets/3_partnersLogos/pragma.jpg',
+    src: '../../assets/3_partnersLogos/pragma.png',
     width: '150px', // alterar o tamanho da imagem
     name: 'logo Pragma'
   }, // Até aqui, para adicionar uma nova imagem
