@@ -15,8 +15,11 @@ time, mark, audio, video, body, aside, nav, li, a {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-family: universregular;
 	vertical-align: baseline;
+}
+
+* {
+	font-family: universregular;
 }
 
 body {
@@ -110,16 +113,16 @@ ol, ul {
 
 @font-face {
 	font-family: 'universlight';
-	src: url('../assets/2_fonts/universlight-webfont.woff2') format('woff2'),
-			 url('../assets/2_fonts/universlight-webfont.woff') format('woff');
+	src: url('../assets/2_fonts/webkit/universlight-webfont.woff2') format('woff2'),
+			 url('../assets/2_fonts/webkit/universlight-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'universregular';
-	src: url('../assets/2_fonts/universregular-webfont.woff2') format('woff2'),
-			 url('../assets/2_fonts/universregular-webfont.woff') format('woff');
+	src: url('../assets/2_fonts/webkit/universregular-webfont.woff2') format('woff2'),
+			 url('../assets/2_fonts/webkit/universregular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }

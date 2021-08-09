@@ -65,14 +65,4 @@
   right: -10%;
 }
 
-* {
-  font-family: universbold;
-}
 
-@font-face {
-	font-family: 'universbold';
-	src: url('../../assets/2_fonts/universbold-webfont.woff2') format('woff2'),
-			 url('../../assets/2_fonts/universbold-webfont.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
