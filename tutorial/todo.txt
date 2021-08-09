@@ -1,0 +1,17 @@
+1. Encontros - Tela acima de 1500 px -> ajuste de tamanho; tirar fundo das logos (ancat, pragma)
+
+2. Subir o site pro ar
+
+___
+
+Adicionar imagem em galeria: 
+1. Ir no arquivo pages/3_atuacoes/galleryEvents
+2. Copiar uma das estruturas do Image gallery e mudar o endereço da imagem para o a imagem que quer adicionar
+
+Adicionar imagem em logos:
+1. Ir no arquivo pages/4_encontros/partnersLogo
+2. Copiar uma das estruturas do partnersLogos e mudar o endereço da imagem para a image que quer adicionar
+
+
+Textos:
+1. Entrar na página correspondente. Ir no arquivo .html desta página. E alterar o texto relativo

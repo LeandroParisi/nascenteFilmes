@@ -44,11 +44,11 @@ const partnersLogos = [
     width: '120px',
     name: 'logo Ancat'
   },
-  {
+  { // Copiar daqui...
     src: '../../assets/3_partnersLogos/pragma.jpg',
-    width: '150px',
+    width: '150px', // alterar o tamanho da imagem
     name: 'logo Pragma'
-  },
+  }, // Até aqui, para adicionar uma nova imagem
 ]
 
 const partnersLogosContainer = document.querySelector('.partners-sub-container')
@@ -59,7 +59,6 @@ partnersLogos.forEach(({src, name, width}, index) => {
   logoContainer.setAttribute('src', src);
   logoContainer.setAttribute('alt', name);
   logoContainer.style.width = width
-  // logoContainer.classList.add('logo-image');
 
   if (position % 5 === 0) {
     logoContainer.classList.add('single-row')
