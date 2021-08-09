@@ -55,10 +55,13 @@ const partnersLogosContainer = document.querySelector('.partners-sub-container')
 
 partnersLogos.forEach(({src, name, width}, index) => {
   const position = index + 1
-  const logoContainer = document.createElement('img');
-  logoContainer.setAttribute('src', src);
-  logoContainer.setAttribute('alt', name);
-  logoContainer.style.width = width
+  const logoContainer = document.createElement('div');
+  logoContainer.classList = 'logoContainer';
+  const logo = document.createElement('img');
+  logoContainer.appendChild(logo);
+  logo.setAttribute('src', src);
+  logo.setAttribute('alt', name);
+  logo.style.width = width
 
   if (position % 5 === 0) {
     logoContainer.classList.add('single-row')

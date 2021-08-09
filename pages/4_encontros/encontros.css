@@ -28,10 +28,6 @@ nav {
   padding: 0 5%;
 }
 
-.partners-sub-container > img.single-row {
-  margin: 0 25%;
-}
-
 .suns-container {
   height: 100%;
   width: 70%;
@@ -55,4 +51,14 @@ nav {
   height: 50vw;
   width: 50vw;
   bottom: -5%;
+}
+
+.logoContainer {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.logoContainer.single-row {
+  width: 100%;
 }
